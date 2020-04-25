@@ -1,4 +1,4 @@
-# List intersection
+# Lists intersection
 ## Description
 We wanted to test how to perform the better lists intersection.
 
