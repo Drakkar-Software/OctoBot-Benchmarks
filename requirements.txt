@@ -1,0 +1,6 @@
+# Setup requirements
+cython==0.29.16
+numpy==1.18.2
+
+# timeit wrapper
+timy
