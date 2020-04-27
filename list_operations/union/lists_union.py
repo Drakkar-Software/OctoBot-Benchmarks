@@ -1,7 +1,6 @@
 import random
 
 import timy
-import numpy as np
 
 
 @timy.timer(loops=1000)
