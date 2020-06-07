@@ -36,7 +36,10 @@ from setuptools import setup, Extension
 
 PACKAGES = find_packages(exclude=["tests"])
 
-packages_list = ["list_operations.filtering.lists_filtering_with_list_as_values"]
+packages_list = [
+    "list_operations.filtering.lists_filtering_with_list_as_values",
+    "iterables_comparisons.tuple_vs_list.creation_and_iteration"
+]
 
 ext_modules = [
     Extension(package, [f"{package.replace('.', '/')}.py"])
