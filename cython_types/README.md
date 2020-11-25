@@ -13,23 +13,24 @@ True
 {'a': 1}
 
 RuntimeError
-Exception ignored in: 'cython_types.types_tests.raise_int'
+Exception ignored in: 'cython_types.types_tests._raise_int'
 Traceback (most recent call last):
   File "C:/**/OctoBot-Benchmarks/cython_types/test.py", line 5, in <module>
     types_tests.raise_int(1)
 RuntimeError: 
 RuntimeError
-Exception ignored in: 'cython_types.types_tests.raise_double'
+Exception ignored in: 'cython_types.types_tests._raise_double'
 Traceback (most recent call last):
   File "C:/**/OctoBot-Benchmarks/cython_types/test.py", line 7, in <module>
     types_tests.raise_double(1.1)
 RuntimeError: 
 RuntimeError
-Exception ignored in: 'cython_types.types_tests.raise_bint'
+Exception ignored in: 'cython_types.types_tests._raise_bint'
 Traceback (most recent call last):
   File "C:/**/OctoBot-Benchmarks/cython_types/test.py", line 10, in <module>
     types_tests.raise_bint(True)
 RuntimeError: 
 
 Process finished with exit code 0
+
 ```
