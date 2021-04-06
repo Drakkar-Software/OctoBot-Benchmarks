@@ -60,9 +60,6 @@ Timy executed (timed) for 1000 times in 0.000249 seconds
 Timy best time was 0.000000 seconds
 ```
 
-Process finished with exit code 0
-
-
 ## Conclusion
 ### Constructors
 decimal.Decimal are much slower to create than floats (~8x).
