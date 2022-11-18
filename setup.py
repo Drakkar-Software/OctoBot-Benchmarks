@@ -37,10 +37,10 @@ from setuptools import setup, Extension
 PACKAGES = find_packages(exclude=["tests"])
 
 packages_list = [
-    "list_operations.filtering.lists_filtering_with_list_as_values",
     "iterables_comparisons.tuple_vs_list.creation_and_iteration",
     "cython_types.types_tests",
-    "float_vs_decimal.comparator"
+    "float_vs_decimal.comparator",
+    "closures.closures_tests",
 ]
 
 ext_modules = [
